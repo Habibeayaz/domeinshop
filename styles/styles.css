@@ -1,49 +1,178 @@
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*////////////////////////
+    Table of Contents
     1. Global Styles
-    2. Typografie
+    2. Typography
     3. Areas
         3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
-
-
-
-/*////////////////////////
-    1. Global Styles
+        3.2 Main
+        3.3 etc.
 ////////////////////////*/
 
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* ------------------------------- 2. Typography ----------------------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
-/*////////////////////////
-    2. Typography
-////////////////////////*/
+/* ------------------------------- 3. Areas ---------------------------------------- */
 
+/* --------------- 3.1 Header ------------------------- */
+.top-header {
+    text-align: center;
+    width: 100%;
+    background-image: url("../assets/images/mountains.jpg") no repeat center local;
+    */background-size: cover;
+    position: relative;
+}
 
+.page-title {
+    text-align: center;
+    color: #1C2B32;
+    padding: 75px 0 0 0;
+    margin-bottom: 25px;
+}
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
+header p {
+    color: #1C2B32;
+    margin:  20px 0 20px 0;
+}
 
+input {
+    color: #1C2B32;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 50px;
+    width: 300px;
+    margin-right: -25px;
+    alignment: center;
+}
 
+.placeholder {
+    text-align: center left;
+    padding-top: 5px;
+    color: #1C2B32;
+}
 
-/*///////////// 3.1 Header /////////////*/
+.button-submit {
+    color: white;
+    font-size: 14px;
+    background-color: #1C2B32;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 50px;
+    width: 200px;
+    margin-top: 25;
+}
 
+/* --------------- 3.2 Main ------------------------- */
 
+main {
+    max-width: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
 
-/*///////////// 3.2 Testimonial /////////////*/
+h2 {
+    color: #1C2B32;
+    text-align: center;
+    margin: 50px;
+}
 
+.testimonials {
+    border: inline 2px solid;
+    padding: 50px 50px 50px 100px;
+    box-shadow: 2px 5px 5px 7px lightgrey;
+    border-radius: 5px;
+    margin-top: 50px;
+    position: relative;
+    text-align: justify all;
+}
 
+.quote-icon {
+    padding-right: 10px;
+    margin-top: -5px;
+}
 
-/*///////////// 3.3 Support /////////////*/
+.avatar-image {
+    height: 44px;
+    width: 44px;
+    display: inline;
+}
 
+p {
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
 
+.callcenter {
+    width: 100%;
+    alignment: center;
+}
 
-/*///////////// 3.4 Faq /////////////*/
+a {
+    color: #899CA0;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
+.button-contact {
+    color: white;
+    font-size: 14px;
+    background-color: #1C2B32;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
 
-/*///////////// 3.5 Footer /////////////*/
+}
+
+details>p {
+    color: white;
+    border: inline 1px solid;
+    border-color: #899CA0;
+    background-color: #899CA0;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+details>summary {
+    cursor: pointer;
+}
+
+/* --------------- 3.3 Footer ------------------------- */
+
+.footer {
+    width: 1300px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: #1C2B32;
+    position: absolute;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-left: -50px
+}
